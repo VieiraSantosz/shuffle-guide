@@ -33,6 +33,7 @@ sudo apt update && sudo apt upgrade -y
 
 **2. Adicionar a chave GPG oficial do Docker**
 
+Essa chave é usada para verificar a autenticidade dos pacotes baixados do repositório oficial do Docker.
 ```bash
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
@@ -40,8 +41,9 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
-**3. Adicionar o repositório ao Apt sources**
+**3. Adicionar o repositório do Docker**
 
+Adiciona o repositório oficial do Docker à lista de fontes do apt para que os pacotes possam ser instalados corretamente.
 ```bash
 echo \
    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
@@ -50,17 +52,20 @@ echo \
 sudo apt-get update
 ```
 
-**4. Instalar e configurar o Docker**
+**4. Instalar o Docker e seus plugins**
 
+Com o repositório adicionado, você pode instalar o Docker Engine e os plugins necessários para utilizar o Docker Compose.
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
+**Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker.**
 
 
 ## Instalação do Shuffle
 
 **1. Baixar e configurar o projeto Shuffle**
 
+Clona o repositório oficial do Shuffle e garante as permissões corretas para o banco de dados local.
 ```bash
 git clone https://github.com/Shuffle/Shuffle
 cd Shuffle
@@ -69,12 +74,14 @@ sudo chown -R 1000:1000 shuffle-database
 
 **2. Iniciar os serviços do Shuffle**
 
+Com os arquivos prontos, essa etapa inicia todos os containers necessários usando o Docker Compose.
 ```bash
 docker compose up -d
 ```
 
 ![image](https://github.com/user-attachments/assets/81e6853f-f712-43a6-a2ce-8fb05c690571)
 
+**Nota**: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
 
 
 ## Primeiro acesso à plataforma
@@ -85,21 +92,22 @@ Após a instalação, abra o seu navegador e insira a seguinte URL para acessar 
 ```bash
 http://<IP-do-Servidor:3001>
 ```
-**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
+**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Shuffle foi instalado.
 
 **2. Login inicial**
 
-Ao acessar pela primeira vez, você verá a tela de login do Shuffle. Crie um nome de usuário e uma senha para acessar a plataforma na próxima vez.
+Na primeira vez que você acessar a interface, será solicitado um nome de usuário e senha para criar sua conta.
+**Nota:** Anote suas credenciais, pois serão utilizadas para os próximos acessos.
 
 ![image](https://github.com/user-attachments/assets/3a7e4df0-e982-4c6a-9021-51824d107508)
 
-Feito a criação do nome de usuário e da senha, só acessar a plataforma.
+Após criar o usuário, você será redirecionado para a interface principal do Shuffle.
 
 ![image](https://github.com/user-attachments/assets/975c9638-38ef-4dc5-93a0-bc6296677dea)
 
 **3. Após o Login**
 
-Após a troca de senha, você será redirecionado para a interface principal do Shuffle.
+Após a criação do seu usuário e da sua senha, você será redirecionado para a interface principal do Shuffle.
 
 ![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
 
