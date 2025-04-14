@@ -9,7 +9,7 @@ Shuffle SOAR
 
 <h4 align="center">
   
-[Shuffle](https://grafana.com/) é uma plataforma de automação de segurança cibernética que permite orquestrar, automatizar e responder a incidentes de forma eficiente. Ele se enquadra na categoria de ferramentas SOAR (Security Orchestration, Automation, and Response), integrando diversos sistemas de segurança e facilitando a criação de fluxos de trabalho automatizados (playbooks) para lidar com ameaças.
+[Shuffle](https://shuffler.io/) é uma plataforma de automação de segurança cibernética que permite orquestrar, automatizar e responder a incidentes de forma eficiente. Ele se enquadra na categoria de ferramentas SOAR (Security Orchestration, Automation, and Response), integrando diversos sistemas de segurança e facilitando a criação de fluxos de trabalho automatizados (playbooks) para lidar com ameaças.
 
 </h4>
 
