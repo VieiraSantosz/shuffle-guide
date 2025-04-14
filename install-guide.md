@@ -58,7 +58,7 @@ Com o repositório adicionado, você pode instalar o Docker Engine e os plugins 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
-**Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker.**
+**Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker**.
 
 
 ## Instalação do Shuffle
@@ -97,6 +97,7 @@ http://<IP-do-Servidor:3001>
 **2. Login inicial**
 
 Na primeira vez que você acessar a interface, será solicitado um nome de usuário e senha para criar sua conta.
+
 **Nota:** Anote suas credenciais, pois serão utilizadas para os próximos acessos.
 
 ![image](https://github.com/user-attachments/assets/3a7e4df0-e982-4c6a-9021-51824d107508)
@@ -107,11 +108,16 @@ Após criar o usuário, você será redirecionado para a interface principal do 
 
 **3. Após o Login**
 
-Após a criação do seu usuário e da sua senha, você será redirecionado para a interface principal do Shuffle.
+Após a criação do usuário e da senha, você será redirecionado para a interface principal do Shuffle.
 
 ![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
 
+## Solução de Problemas
+Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
 
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
+- **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3001 está aberta no firewall do servidor.
+- **Problemas com Docker:** Confirme se o Docker está em execução com **docker ps**.
 
 
 
