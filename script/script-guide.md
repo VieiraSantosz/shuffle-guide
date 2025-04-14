@@ -34,7 +34,7 @@ sudo apt update && sudo apt upgrade -y
 
 Clone o repositório onde o script de instalação está armazenado.
 ```bash
-https://github.com/VieiraSantosz/shuffle-guide.git
+git clone https://github.com/VieiraSantosz/shuffle-guide.git
 ```
 
 **3. Navegar até o diretório do script**
