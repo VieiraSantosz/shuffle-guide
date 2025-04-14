@@ -17,6 +17,6 @@ Shuffle SOAR
 
 Existem duas formas de realizar a instalação:
 
-**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md]() para realizar a instalação passo a passo.
+**1. Instalação manual:** Siga as instruções no arquivo [install-guide.md](https://github.com/VieiraSantosz/shuffle-guide/blob/main/install-guide.md) para realizar a instalação passo a passo.
 
-**2. Usando script:** Acesse a pasta [script](), faça o download do script install-grafana.sh, e siga as orientações de uso.
+**2. Usando script:** Acesse a pasta [script](https://github.com/VieiraSantosz/shuffle-guide/tree/main/script), faça o download do script install-grafana.sh, e siga as orientações de uso.
