@@ -102,13 +102,13 @@ Na primeira vez que você acessar a interface, será solicitado um nome de usuá
 
 ![image](https://github.com/user-attachments/assets/3a7e4df0-e982-4c6a-9021-51824d107508)
 
-Após criar o usuário, você será redirecionado para a interface principal do Shuffle.
+Depois de criar suas credenciais, faça o login e você será direcionado automaticamente para a interface principal do Shuffle.
 
 ![image](https://github.com/user-attachments/assets/975c9638-38ef-4dc5-93a0-bc6296677dea)
 
 **3. Após o Login**
 
-Após a criação do usuário e da senha, você será redirecionado para a interface principal do Shuffle.
+Após entrar na plataforma, você já pode começar a explorar e personalizar o Shuffle de acordo com as suas necessidades.
 
 ![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
 
