@@ -63,9 +63,9 @@ Agora, execute o script para iniciar a instalação do Grafana.
 
 Após a instalação, o script fornecerá o link de acesso à interface web. Guarde essa informação, pois você precisará dela para acessar a plataforma do Shuffle.
 
-**Nota**: Durante o primeiro acesso, o sistema solicitará a criação de um nome de usuário e senha para configurar sua conta inicial.
-
 ![image](https://github.com/user-attachments/assets/ed710890-9ce9-432f-ba07-95325ea54f9f)
+
+**Nota**: Durante o primeiro acesso, o sistema solicitará a criação de um nome de usuário e senha para configurar sua conta inicial.
 
 
 
@@ -76,7 +76,7 @@ Após a instalação, abra o seu navegador e insira o link de acesso à interfac
 ```bash
 http://<IP-do-Servidor:3001>
 ```
-**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
+**Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Shuffle foi instalado.
 
 **2. Login inicial**
 
