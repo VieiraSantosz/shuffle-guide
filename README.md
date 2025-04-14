@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[![image](![image](https://github.com/user-attachments/assets/f61e929f-b4b9-4294-a028-7d08aa761b04)](https://shuffler.io/)
+[![image](https://github.com/user-attachments/assets/f61e929f-b4b9-4294-a028-7d08aa761b04)](https://shuffler.io/)
 
 Shuffle SOAR
 
