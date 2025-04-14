@@ -73,6 +73,8 @@ sudo chown -R 1000:1000 shuffle-database
 docker compose up -d
 ```
 
+![image](https://github.com/user-attachments/assets/81e6853f-f712-43a6-a2ce-8fb05c690571)
+
 
 
 ## Primeiro acesso à plataforma
@@ -84,3 +86,30 @@ Após a instalação, abra o seu navegador e insira a seguinte URL para acessar 
 http://<IP-do-Servidor:3001>
 ```
 **Nota:** Caso você esteja acessando a plataforma remotamente, substitua o **localhost** pelo endereço IP ou nome de domínio do servidor onde o Wazuh foi instalado.
+
+**2. Login inicial**
+
+Ao acessar pela primeira vez, você verá a tela de login do Shuffle. Crie um nome de usuário e uma senha para acessar a plataforma na próxima vez.
+
+![image](https://github.com/user-attachments/assets/3a7e4df0-e982-4c6a-9021-51824d107508)
+
+Feito a criação do nome de usuário e da senha, só acessar a plataforma.
+
+![image](https://github.com/user-attachments/assets/975c9638-38ef-4dc5-93a0-bc6296677dea)
+
+**3. Após o Login**
+
+Após a troca de senha, você será redirecionado para a interface principal do Shuffle.
+
+![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
+
+
+
+
+
+
+
+
+
+
+
