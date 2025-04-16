@@ -81,7 +81,7 @@ docker compose up -d
 
 ![image](https://github.com/user-attachments/assets/81e6853f-f712-43a6-a2ce-8fb05c690571)
 
-**Nota**: O processo pode levar alguns minutos na primeira execução. Aguarde até que todos os serviços estejam ativos.
+**Nota:** O processo pode levar alguns minutos na primeira execução, pois o Docker precisará baixar as imagens e realizar a configuração inicial. Aguarde até que todos os serviços estejam ativos.
 
 
 ## Primeiro acesso à plataforma
