@@ -72,7 +72,7 @@ Após a instalação, o script fornecerá o link de acesso à interface web. Gua
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
 
-Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do Shuffle utilizando o IP da sua máquina seguido da porta 3001.
+Abra o navegador e acesse a interface web do Shuffle utilizando o IP da sua máquina seguido da porta 3001.
 ```bash
 http://<IP-do-Servidor:3001>
 ```
