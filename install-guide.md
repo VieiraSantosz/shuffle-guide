@@ -88,7 +88,7 @@ docker compose up -d
 
 **1. Acessar a interface web**
 
-Depois que os serviços estiverem ativos, abra o navegador e acesse a interface web do Shuffle utilizando o IP da sua máquina seguido da porta 3001.
+Abra o navegador e acesse a interface web do Shuffle utilizando o IP da sua máquina seguido da porta 3001.
 ```bash
 http://<IP-do-Servidor:3001>
 ```
