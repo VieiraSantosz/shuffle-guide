@@ -83,7 +83,7 @@ Na primeira vez que você acessar a interface, será solicitado um **nome de usu
 
 **Nota:** Anote suas credenciais, pois serão utilizadas para os próximos acessos.
 
-![image](https://github.com/user-attachments/assets/3a7e4df0-e982-4c6a-9021-51824d107508)
+![image](https://github.com/user-attachments/assets/ba28acff-daeb-4491-9a38-c262e52e38b9)
 
 Depois de criar suas credenciais, faça o login e você será direcionado automaticamente para a interface principal do Shuffle.
 
