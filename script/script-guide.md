@@ -63,7 +63,7 @@ Agora, execute o script para iniciar a instalação do Grafana.
 
 Após a instalação, o script fornecerá o link de acesso à interface web. Guarde essa informação, pois você precisará dela para acessar a plataforma do Shuffle.
 
-![image](https://github.com/user-attachments/assets/ed710890-9ce9-432f-ba07-95325ea54f9f)
+![image](https://github.com/user-attachments/assets/1e47d32f-5cc7-48fc-b548-0520e2ecb6e3)
 
 **Nota**: Durante o primeiro acesso, o sistema solicitará a criação de um nome de usuário e senha para configurar sua conta inicial.
 
