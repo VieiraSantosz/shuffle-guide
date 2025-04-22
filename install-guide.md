@@ -20,7 +20,7 @@ Antes de iniciar a instalação, verifique se o seu servidor atende aos seguinte
 - **Mínimo de disco:** 32 GB
 - **Mínimo de memória RAM:** 8 GB
 - **Mínimo de CPU:** 4 CPU
-
+<br>
 
 ## Instalação do Docker
 
@@ -60,6 +60,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 **Nota**: Verifique se o serviço do Docker está ativo com **sudo systemctl status docker**.
 
+<br>
 
 ## Instalação do Shuffle
 
@@ -83,6 +84,7 @@ docker compose up -d
 
 **Nota:** O processo pode levar alguns minutos na primeira execução, pois o Docker precisará baixar as imagens e realizar a configuração inicial. Aguarde até que todos os serviços estejam ativos.
 
+<br>
 
 ## Primeiro acesso à plataforma
 
@@ -110,6 +112,8 @@ Depois de criar suas credenciais, faça o login e você será direcionado automa
 Após entrar na plataforma, você já pode começar a explorar e personalizar o Shuffle de acordo com as suas necessidades.
 
 ![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
+
+<br>
 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
