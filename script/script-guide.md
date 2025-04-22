@@ -21,6 +21,7 @@ Antes de executar o script, verifique se o seu servidor atende aos seguintes req
 - **Mínimo de memória RAM:** 8 GB
 - **Mínimo de CPU:** 4 CPU
 
+<br>
 
 ## Execução do Script
 **1. Atualizar o servidor**
@@ -67,7 +68,7 @@ Após a instalação, o script fornecerá o link de acesso à interface web. Gua
 
 **Nota**: Durante o primeiro acesso, o sistema solicitará a criação de um **nome de usuário** e **senha** para configurar sua conta inicial.
 
-
+<br>
 
 ## Primeiro acesso à plataforma
 **1. Acessar a interface web**
@@ -94,6 +95,8 @@ Depois de criar suas credenciais, faça o login e você será direcionado automa
 Após entrar na plataforma, você já pode começar a explorar e personalizar o Shuffle de acordo com as suas necessidades.
 
 ![image](https://github.com/user-attachments/assets/9b1e01e0-ba1b-469d-a57c-ad431f61fbb5)
+
+<br>
 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
