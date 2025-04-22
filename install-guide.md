@@ -114,7 +114,7 @@ Após entrar na plataforma, você já pode começar a explorar e personalizar o 
 ## Solução de Problemas
 Caso a instalação não tenha ocorrido conforme esperado, verifique o seguinte:
 
-- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Grafana.
+- **Falha na conexão com a internet:** Verifique se a sua conexão está funcionando corretamente e que o servidor pode acessar os repositórios do Shuffle.
 - **Acesso à interface web:** Se você não consegue acessar a interface web, verifique se a porta 3001 está aberta no firewall do servidor.
 - **Problemas com Docker:** Confirme se o Docker está em execução com **docker ps**.
 
