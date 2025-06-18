@@ -71,7 +71,7 @@ Clona o repositório oficial do Shuffle e garante as permissões corretas para o
 git clone https://github.com/Shuffle/Shuffle
 cd Shuffle
 sudo chown -R 1000:1000 shuffle-database
-sed -i 's|9200|9000|g' "docker-compose.yml"
+sed -i 's|9200|9000|g' docker-compose.yml
 ```
 
 **2. Iniciar os serviços do Shuffle**
